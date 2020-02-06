@@ -10,7 +10,7 @@ namespace Part_1_Basics
     {
         static void Main(string[] args)
         {
-            string firstName;
+            string firstName;   //first name
             string favMovie; 
 
             Console.Write(" SSS ");
