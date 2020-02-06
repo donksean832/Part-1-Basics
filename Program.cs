@@ -11,7 +11,7 @@ namespace Part_1_Basics
         static void Main(string[] args)
         {
             string firstName;   //first name
-            string favMovie; 
+            string favMovie;    //movie
 
             Console.Write(" SSS ");
             Console.WriteLine(" DDDD ");
