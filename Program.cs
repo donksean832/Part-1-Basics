@@ -12,6 +12,9 @@ namespace Part_1_Basics
         {
             string firstName;   //first name
             string favMovie;    //movie
+            string PersonalizedGreeting;
+            string CapsPhrase;          
+            string ReplacePhrase;
 
             Console.Write(" SSS ");
             Console.WriteLine(" DDDD ");
@@ -31,8 +34,19 @@ namespace Part_1_Basics
             firstName = ("Sean");
             favMovie = ("Iron Man");
 
+            PersonalizedGreeting = ($"My name is {firstName} and my favourite movie is {favMovie}.");
+            PersonalizedGreeting = PersonalizedGreeting.ToLower();
+            Console.WriteLine(PersonalizedGreeting);
 
+            favMovie = favMovie.ToUpper();
+            Console.WriteLine(favMovie);
+            bool ContainPhrase = favMovie.Contains("The");
+            Console.WriteLine(ContainPhrase);
 
-            Console.ReadLine();        }
+            Console.WriteLine(favMovie.Replace("A", "@"));
+            Console.WriteLine(favMovie.Replace("E", "3"));
+
+            Console.ReadLine();       
+        }
     }
 }
